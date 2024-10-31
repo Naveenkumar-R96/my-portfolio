@@ -1,0 +1,9 @@
+.topcontainer{
+    background: url('../../assets/soldier_helmet_art_123765_1920x1080.jpg');
+    height: 87vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    
+}
