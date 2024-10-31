@@ -8,7 +8,7 @@ const TopContents = () => {
       <div className="topcontent__container">
         <h1>Naveenkumar</h1>
         <p>A professional Web and App Developer</p>
-        <a href="https://naveen-">
+        <a href="https://naveen-firstreact-31.web.app">
           <button className='topContent__downloadButton'>Download CV</button>
         </a>
         <Link To="projects" smooth={true} duration={500}>

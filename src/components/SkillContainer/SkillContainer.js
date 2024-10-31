@@ -8,7 +8,7 @@ const SkillContainer = () => {
   return (
     <Element className='skillContainer' name='skills'>
       <div className="skillContainer__image">
-        <img src={skilling} alt="" width="500px" height="auto" />
+        <img src={skilling} alt="" />
       </div>
       <div className="skillContainer__text">
         <h2>SKILLS SET</h2>
@@ -21,12 +21,16 @@ const SkillContainer = () => {
           <div className="skillContainer__slider skillContainer__slider2">
             <LinearProgress variant='determinate' value={85} />
           </div>
-          <h5>CSS</h5>
+          <h5>Python</h5>
           <div className="skillContainer__slider skillContainer__slider3">
+            <LinearProgress variant='determinate' value={65} />
+          </div>
+          <h5>CSS</h5>
+          <div className="skillContainer__slider skillContainer__slider4">
             <LinearProgress variant='determinate' value={95} />
           </div>
           <h5>HTML5</h5>
-          <div className="skillContainer__slider skillContainer__slider4">
+          <div className="skillContainer__slider skillContainer__slider5">
             <LinearProgress variant='determinate' value={98} />
           </div>
         </div>

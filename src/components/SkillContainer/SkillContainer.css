@@ -1,5 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.skillContainer{
+    display: flex;
+    justify-content: center;
+    margin: 200px 0;
+    align-items: center;
+}
+.skillContainer__text{
+    color:white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.skillContainer__text h2{
+    font-size: 30px;
+}
 .skillContainer__image{
-   
-   height: 10vh;
-    
+    flex: 0.4;
+    margin-right: 100px;
+}
+
+.skillContainer__image img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.skillContainer__skillset h5{
+    font-family: "Montserrat";
+    font-weight: 300;
+    padding-bottom: 30px; 
+    padding-top: 10px;
+    font-size: 16px;
+}
+.skillContainer__slider .MuiLinearProgress-root{
+   background-color: gray;
+}
+.skillContainer__slider1 .css-l16vtb-MuiLinearProgress-bar1{
+    background-color: yellow;
+    height: 20px;
+}
+.skillContainer__slider2 .css-l16vtb-MuiLinearProgress-bar1{
+    background-color: rgb(0, 123, 255);
+    height: 20px;
+}
+.skillContainer__slider3 .css-l16vtb-MuiLinearProgress-bar1{
+    background-color: rgb(0, 255, 102);
+    height: 20px;
+}
+.skillContainer__slider4 .css-l16vtb-MuiLinearProgress-bar1{
+    background-color: rgb(255, 0, 136);
+    height: 20px;
+}
+.skillContainer__slider5 .css-l16vtb-MuiLinearProgress-bar1{
+    background-color: rgb(0, 255, 191);
+    height: 20px;
 }
