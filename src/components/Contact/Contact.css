@@ -1,0 +1,35 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin: 200px 0 100px;
+    align-items: center;
+}
+.contact h1{
+    padding: 20px;
+}
+.contact__container{
+    border: 2px solid white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    
+    
+}
+.contact__container p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+.contact__container p span{
+    color: red;
+}
+.contact__icons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 30px;
+   
+}
